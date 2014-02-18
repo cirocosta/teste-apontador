@@ -1,0 +1,5 @@
+# Arquivos Minificados
+build/
+
+# Dependencias
+node_modules/

@@ -1,10 +1,10 @@
 {
-  "name": "storage-utils",
-  "version": "0.0.2",
-  "description": "Simple helper for webstorage",
+  "name": "Teste Apontador",
+  "version": "0.0.1",
+  "description": "Quick demo using Apontador API for showing the reviews for a particular place.",
   "repository": {
     "type": "git",
-    "url": "http://github.com/cirocosta/storage-utils-js"
+    "url": "http://github.com/cirocosta/teste-apontador"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

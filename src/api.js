@@ -3,8 +3,8 @@
 /*global XMLHttpRequest: false */
 
 /**
- * Object for accessing in a better way the Api (simplified).
- * See `@todo` elements for improvements that are pending. 
+ * Object for accessing in a better way the Api (simplified). See
+ * `@todo` elements for improvements that are pending.
  * @param {String} access_token the access token you receive.
  * @see https://api.apontador.com.br/v2/docs/authentication
  */
@@ -63,10 +63,12 @@ ApiApontador.prototype._buildQuery = function (params) {
 /**
  * Makes a request for getting info about a Place.
  * @param  {String} placeId  the ID of the Place
- * @param  {Function} listener the listener function to be executed when the
- *                             request is completed. The context is XHR Obj.
- * @param  {Object} args     An object representing the args to be passed for
- *                           the query. Does not needs to add access_token.
+ * @param  {Function} listener the listener function to be executed when
+ *                             the request is completed. The context is 
+ *                             XHR Obj.
+ * @param  {Object} args     An object representing the args to be
+ *                           passed for the query. Does not needs to add
+ *                           access_token.
  * @see https://api.apontador.com.br/v2/docs/places
  */
 ApiApontador.prototype.getPlaceInfo = function (placeId, listener, args) {
@@ -85,10 +87,12 @@ ApiApontador.prototype.getPlaceInfo = function (placeId, listener, args) {
 /**
  * Makes a request for getting the reviews of a Place.
  * @param  {String} placeId  the ID of the Place
- * @param  {Function} listener the listener function to be executed when the
- *                             request is completed. The context is XHR Obj.
- * @param  {Object} args     An object representing the args to be passed for
- *                           the query. Does not need to add access_token.
+ * @param  {Function} listener the listener function to be executed when
+ *                             the request is completed. The context is
+ *                             XHR Obj.
+ * @param  {Object} args     An object representing the args to be
+ *                           passed for the query. Does not need to add
+ *                           access_token.
  * @see https://api.apontador.com.br/v2/docs/reviews
  */
 ApiApontador.prototype.getPlaceReviews = function (placeId, listener, args) {

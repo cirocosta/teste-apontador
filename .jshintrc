@@ -12,6 +12,11 @@
   "node"    : true,
   "globals" : {
     "jQuery": false,
-    "$": false
+    "$": false,
+    "google": false,
+    "window": false,
+    "document": false,
+    "XMLHttpRequest": false,
+    "ApiApontador": false
   }
 }

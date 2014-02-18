@@ -1,0 +1,95 @@
+h1 {
+  font-weight: bold;
+  font-size: 43px;
+  color: rgb(238, 204, 26);
+  letter-spacing: -3px;
+  text-shadow: 1px 1px rgb(162, 136, 0);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.container {
+  z-index: 1;
+  background: white;
+  position: relative;
+  top: 30px;
+  padding: 60px;
+  box-shadow: 0 2px rgb(165, 156, 156);
+}
+
+.btn {
+  border-radius: 0;
+  background: rgb(221, 210, 80);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  box-shadow: 0 2px rgb(201, 190, 60);
+}
+
+.btn:hover {
+  background: rgb(201, 190, 60);
+  color: white;
+}
+
+.btn:focus {
+  color: white;
+  background: rgb(221, 210, 80);
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(19, 158, 141);
+  transition: color .1s;
+}
+
+a:hover {
+  color: rgb(28, 192, 172);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(27, 32, 29) !important;
+}
+
+#b_appear {
+  position: absolute;
+  z-index: 1;
+  right: 20%;
+  transition: opacity .3s ease;
+  box-shadow: 0 2px rgb(36, 112, 91),0 4px 50px black;
+  font-size: 16px;
+}
+
+#text_modal {
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+#text_modal[faded=true], #b_appear[faded=true] {
+  opacity: 0;
+}
+
+#text_modal[faded=false], #b_appear[faded=false] {
+  opacity: 1;
+}
+
+.review.row {
+  border-left: 5px solid rgb(236, 230, 156);
+  background: rgba(243, 224, 86, 0.19);
+  padding: 5px;
+}
+
+.review-nome {
+  margin-bottom: 0 !important;
+}

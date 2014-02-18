@@ -32,7 +32,7 @@
         },
 
         qunit: {
-            all: ['tests/**/*.html']
+            all: ['tests/index.html']
         },
 
         jshint: {

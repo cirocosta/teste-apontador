@@ -21,7 +21,7 @@ function populateWithDeterminedPlaceInfo(api) {
         var html =
             "<h1>" + nome + "</h1>" +
             "<h3>" + categoria + "</h3> " +
-            "<h4>" + telefone + "</h4>";
+            "<h4><strong>tel:</strong> " + telefone + "</h4>";
 
         local = new google.maps.LatLng(
             info.place.location.lat, info.place.location.lng
